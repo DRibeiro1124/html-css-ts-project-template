@@ -6,7 +6,7 @@
     "serve": "vite preview",
     "start": "vite",
     "predeploy": "npm run build",
-    "deploy": "netlify deploy prod --dir=dist"
+    "deploy": "netlify deploy --prod --dir=dist"
   },
   "prettier": {
     "trailingComma": "es5",
